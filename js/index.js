@@ -1,23 +1,23 @@
 // imtihon
 // 1-masala
-// const str = "1234567";
-// let res = str.split("");
-// let result = [];
-// function teskariAlmashtirish(str) {
-//   for (let i = 1; i <= res.length; i++) {
-//     result.unshift(i);
-//   }
-//   return result;
-// }
-// console.log(teskariAlmashtirish(str));
-
-// 2-usul
 const str = "1234567";
 let res = str.split("");
+let result = [];
 function teskariAlmashtirish(str) {
-  return res.reverse();
+  for (let i = 1; i <= res.length; i++) {
+    result.unshift(i);
+  }
+  return result;
 }
 console.log(teskariAlmashtirish(str));
+
+// 2-usul
+// const str = "1234567";
+// let res = str.split("");
+// function teskariAlmashtirish(str) {
+//   return res.reverse();
+// }
+// console.log(teskariAlmashtirish(str));
 
 // 2-masala
 // == bu  biz bergan  qiymatga tengligini tekshiradi holo u taypini string yoki number ekanini tekshirmaydi
